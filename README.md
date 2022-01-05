@@ -1,5 +1,8 @@
 # DEELS-Framework
 
+Note - DEELS has not been completed yet. DEELS currently might not yet have the features listed below.
+
+
 DEELS is a CSS Framework designed to make your work easier.
 With just some HTML classes your work would be styled maybe ,you dont like the styling dont worry.
 You can easily overwrite DEELS CSS code with your own CSS code in another CSS file and linking it to the HTML after youve linked the DEELS File.
