@@ -1,5 +1,5 @@
-/* CSS LIBRARY CODE */
-/* NAVBAR CODE */
+/* CSS Framework CODE */
+/* Code for Navigation Bar */
 
 .topnav{
 	position: absolute;
@@ -9,11 +9,13 @@
 	height: 3.5rem;
 	background-color: darkturquoise;
 }
+
 .topnav .logo{
 	font-size: 40px;
 	width: 3.5rem;
 	height: 3.2rem;
 }
+
 .topnav a{
 	display: inline-flex;
 	text-decoration: none;
@@ -24,7 +26,104 @@
 	border: solid darkturquoise;
 	border-radius: 10px;
 }
+
 .topnav a:hover{
 	color: whitesmoke;
-	background- color: black;
+	background-color: black;
+}
+
+/* Login Form Styles */
+
+.login{
+	min-height: 10rem;
+	max-height: 40rem;
+	min-width: 10rem;
+	max-width: 20rem;
+	border: solid black;
+	background-color: whitesmoke;
+}
+
+.login .user{
+	background-color: whitesmoke;
+	text-decoration: none;
+	min-width: 25ch;
+	max-width: 50ch;
+}
+
+.login button{
+	margin-top: 2ch;
+	margin-left: 1ch;
+}
+
+.login .password{
+	background-color: whitesmoke;
+	text-shadow: black;
+	text-decoration: underline;
+}
+
+/* Grid Styles */
+
+.grid{
+	min-width: 1rem;
+	max-width: 100%;
+	min-height: 1ch;
+	max-height: 150%;
+}
+
+.grid .row{
+	display: flex;
+	min-width: 0.1rem;
+	max-width: 100%;
+	min-height: 2ch;
+	max-height: 50%;
+}
+
+.grid .row .col{
+	display: flex;
+	min-width: 0.01rem;
+	max-width: 90%;
+	min-height: 1ch;
+	max-height: 50%;
+	border: solid;
+	border-width: 1px;
+}
+
+/* Button Style */
+
+.button{
+	background-color: deepskyblue;
+	border: solid deepskyblue;
+	border-radius: 10px;
+	color: whitesmoke;
+	font-family: cursive;
+}
+
+/* Content(a container) styles */
+
+.cont{
+	border-radius: 10px;
+	border: solid;
+	border-width: 5px;
+	max-height: 50%;
+	max-width: 35%;
+	align-items: center;
+}
+
+.cont .heading{
+	font-family: cursive;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+
+.cont img{
+	max-width: 100%;
+	max-height: 65%;
+	text-align: center;
+}
+
+.cont .text{
+	font-family: cursive;
+	font-size: 15px;
 }
