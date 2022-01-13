@@ -3,9 +3,18 @@
 [Using DEELS for creating a Navigation Bar]
 {Creating a NAVIGATION BAR with DEELS is an easy proccess:
 First create : <div class="topnav"></div>
-Next Create a : <label class="logo">(Your Logo or Label)</label>
+Next Create a inside .topnav : <label class="logo">(Your Logo or Label)</label>
 Next add all the NAV Links with the a tag in html in the 'topnav class div'.
 }
 THAT WAS THE WAY TO CREATE A NAVBAR USING DEELS.
 
-{OTHER FEATURES DONT EXIST YET THIS FRAMEWORK IS STILL BEING CREATED}
+Login Form Feature:
+
+Create : <div class="login"></div>
+Inside .login create an input tag with the class .user to get Email/Username : <input type="text" class="user">
+Inside .login create an input tag with the class .password to get Password : <input type="text" class="password">
+Next create a button with the class .button to submit the details : <button class="button">Login</button>
+
+THAT WAS THE WAY TO CREATE A LOGIN FORM USING DEELS.
+
+Other features are available for use but are not listed in this file.
