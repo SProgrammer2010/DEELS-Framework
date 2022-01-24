@@ -1,0 +1,35 @@
+@import url("padding-1.css");
+@import url("padding-2.css");
+@import url("padding-3.css");
+@import url("padding-4.css");
+
+.pad-100{
+    padding: 100px;
+}
+.pad-200{
+    padding: 200px;
+}
+.pad-300{
+    padding: 300px;
+}
+.pad-400{
+    padding: 400px;
+}
+.pad-500{
+    padding: 500px;
+}
+.pad-600{
+    padding: 600px;
+}
+.pad-700{
+    padding: 700px;
+}
+.pad-800{
+    padding: 800px;
+}
+.pad-900{
+    padding: 900px;
+}
+.pad-1000{
+    padding: 1000px;
+}

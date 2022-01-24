@@ -1,0 +1,21 @@
+.block{
+    display: block;
+}
+.flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+.static{
+    position: static;
+}
+.sticky{
+    position: sticky;
+}

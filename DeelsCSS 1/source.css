@@ -1,0 +1,214 @@
+@import url("advance.css");
+
+:root{
+	--ws: whitesmoke;
+	--dark: rgb(54, 49, 70);
+}
+
+body{
+	background-color: whitesmoke;
+}
+
+/* Code for Navigation Bar */
+
+.topnav{
+	min-width: 100%;
+	margin: 0rem;
+	height: 8%;
+	background-color: deepskyblue;
+	border: solid deepskyblue;
+	top: 0;
+	left: 0;
+	position: absolute;
+	display: flex;
+}
+
+.topnav a{
+	color: white;
+	font-size: 1.7rem;
+	border: solid deepskyblue;
+	border-radius: 1px;
+	text-decoration: none;
+	font-style: italic;
+	font-family: cursive;
+	font-stretch: expanded;
+	transition-duration: .159s;
+	margin-left: 2rem;
+	margin-top: 0.4rem;
+	height: 2ch;
+}
+
+.topnav a:hover{
+	background-color: white;
+	color: deepskyblue;
+	border: solid white;
+	border-radius: 10px;
+}
+
+/* Logo [In Navbar] */
+
+.logo{
+	color: white;
+	font-size: 2.3rem;
+	font-family: cursive;
+}
+
+/* Grid Styles */
+
+.grid{
+	min-width: 1rem;
+	max-width: 100%;
+	min-height: 1ch;
+	max-height: 150%;
+}
+
+.grid .row{
+	display: flex;
+	min-width: 0.1rem;
+	max-width: 100%;
+	min-height: 2ch;
+	max-height: 50%;
+}
+
+.grid .row .col{
+	display: flex;
+	min-width: 0.01rem;
+	max-width: 90%;
+	min-height: 1ch;
+	max-height: 50%;
+	border: solid;
+	border-width: 1px;
+}
+
+/* Button Style */
+
+.button{
+	background-color: deepskyblue;
+	border: solid deepskyblue;
+	border-radius: 10px;
+	color: var(--ws);
+	font-family: cursive;
+	transition-duration: .125s;
+}
+
+/* Content(a container) styles */
+
+.cont{
+	border-radius: 10px;
+	border: solid;
+	border-width: 5px;
+	max-height: 50%;
+	max-width: 35%;
+	align-items: center;
+}
+
+.cont .heading{
+	font-family: cursive;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	font-size: 25px;
+}
+
+.cont img{
+	max-width: 100%;
+	max-height: 65%;
+	text-align: center;
+}
+
+.cont .text{
+	font-family: cursive;
+	font-size: 15px;
+}
+
+/* Image Styles */
+
+.round-image{
+	display: block;
+	border-radius: 20rem;
+}
+
+.round-corners{
+	display: block;
+	border-radius: 7px;
+}
+
+.thumbnail{
+	display: block;
+	border: solid var(--ws);
+}
+
+.center-thumbnail{
+	display: block;
+	border: solid var(--ws);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Center an Object */
+
+.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Change the Visibility Of an Object */
+
+.transparent{
+	display: block;
+	border: none;
+	opacity: 0;
+}
+
+.translucent{
+	display: block;
+	opacity: 0.4;
+}
+
+/* Styling Text */
+
+.highlight{
+	background-color: greenyellow;
+	color: black;
+	padding: 0.8rem;
+}
+
+.mark{
+	color: gray;
+	text-decoration: underline;
+}
+
+/* Login Form Style */
+
+.login{
+	background-color: skyblue;
+	width: 20%;
+	height: 10em;
+	border-radius: 10px;
+}
+
+.login .user, .login .password{
+	display: block;
+	margin: auto;
+}
+
+.login .button{
+	display: block;
+	margin: auto;
+}
+
+.login .heading{
+	display: block;
+	margin: auto;
+	color: var(--ws);
+	margin-top: 1.2em;
+	margin-left: 3em;
+	max-width: 8.8em;
+	font-family: cursive;
+	font-size: 20px;
+	margin-bottom: 1em; 
+}
+
+/* End Of Source.css (Main DEELS Library) */
+/* Other features are included in advance.css (Responsive DEELS Library)

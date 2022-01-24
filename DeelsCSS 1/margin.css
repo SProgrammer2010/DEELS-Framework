@@ -1,0 +1,35 @@
+@import url("margin-1.css");
+@import url("margin-2.css");
+@import url("margin-3.css");
+@import url("margin-4.css");
+
+.marg-100{
+    margin: 100px;
+}
+.marg-200{
+    margin: 200px;
+}
+.marg-300{
+    margin: 300px;
+}
+.marg-400{
+    margin: 400px;
+}
+.marg-500{
+    margin: 500px;
+}
+.marg-600{
+    margin: 600px;
+}
+.marg-700{
+    margin: 700px;
+}
+.marg-800{
+    margin: 800px;
+}
+.marg-900{
+    margin: 900px;
+}
+.marg-1000{
+    margin: 1000px;
+}

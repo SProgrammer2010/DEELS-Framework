@@ -1,0 +1,65 @@
+.bg-red{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: red;
+}
+.bg-orange{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: orange;
+}
+.bg-yellow{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: yellow;
+}
+.bg-ch{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: chartreuse;
+}
+.bg-green{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: rgb(18, 189, 18);
+}
+.bg-blue{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: blue;
+}
+.bg-cyan{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: cyan;
+}
+.bg-white{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: whitesmoke
+}
+.bg-black{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: black;
+}
+.bg-dark{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: rgb(49, 50, 61);
+}
+.bg-magenta{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: magenta;
+}
+.bg-violet{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: violet;
+}
+.bg-dsblue{
+    min-width: 1rem;
+    min-height: 1rem;
+    background-color: deepskyblue;
+}

@@ -1,0 +1,41 @@
+:root{
+	--dark: rgb(34, 35, 44);
+}
+
+/* Relative Button */
+
+.button{
+	position: relative;
+}
+
+/* Hovers */
+
+.topnav a:hover{
+	color: var(--ws);
+	background-color: black;
+}
+
+.button:hover{
+	background-color: turquoise;
+	border: solid turquoise;
+	border-radius: 5px;
+}
+
+.text-hover:hover{
+	display: block;
+	color: antiquewhite;
+}
+
+/* Tooltip */
+
+.button-tooltip:hover::after{
+	content: attr(tooltip);
+	position: absolute;
+	margin-left: 0.5ch;
+	transform: translateY(+15px);
+	border: solid black 1px;
+	border-radius: 1px;
+	background-color: whitesmoke;
+	color: rgb(34, 31, 31);
+	font-size: 12px;
+}

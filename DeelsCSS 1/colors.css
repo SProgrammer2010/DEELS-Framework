@@ -1,0 +1,65 @@
+.red{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: red;
+}
+.orange{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: orange;
+}
+.yellow{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: yellow;
+}
+.ch{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: chartreuse;
+}
+.green{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: rgb(18, 189, 18);
+}
+.blue{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: blue;
+}
+.cyan{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: cyan;
+}
+.white{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: whitesmoke
+}
+.black{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: black;
+}
+.dark{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: rgb(49, 50, 61);
+}
+.magenta{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: magenta;
+}
+.violet{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: violet;
+}
+.dsblue{
+    min-width: 1rem;
+    min-height: 1rem;
+    color: deepskyblue;
+}
